@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RENTALS</title>
+    <link rel="icon" href="images/home (1).png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="rentals.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="jquery.scrollUp.min.js"></script>
+    <!--scroll to top function-->
+    <script>
+        $(function () {
+        $.scrollUp({
+            scrollName: 'scrollUp',     
+            scrollDistance: 50,         
+            scrollFrom: 'top',           
+            scrollSpeed: 300,            
+            easingType: 'linear',       
+            animation: 'fade',           
+            animationSpeed: 200,
+            scrollText: 'Top'
+        });
+    });
+    </script>
+     <!--scroll to top function ends-->
+</head>
+<body>
+    <!--header section starts-->
+    <header>
+        <h1 class="heading">HOME</h1>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="rentals.html">HOME</a></li>
+                <li><a href="rent.html">RENT</a></li>
+                <li><a href="facilities.html">FACILITIES</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <!--header section ends-->
+
+    <!--Home section starts-->
+    <section class="home">
+        <div class="content">
+
+            <!-- heading -->
+            <h1>Easy Way To Rent a Home</h1>
+
+            <!-- list down the heading -->
+            <ul>
+                <li><img src="images/rent-right-image.png" class="right"> Exclusive Homes</li>
+                <li><img src="images/rent-right-image.png" class="right"> Assisted Visits</li>
+                <li><img src="images/rent-right-image.png" class="right"> Easy Move In</li>
+            </ul>
+
+            <!-- reference images -->
+            <div id="home-img">
+            <img src="images/home-1.jpg" class="img-home">
+            <img src="images/home-2.jpg" class="img-home">
+            <img src="images/home-3.jpg" class="img-home">
+            <img src="images/home-4.jpg" class="img-home">
+            <img src="images/home-5.jpg" class="img-home">
+            </div>
+
+            <!-- introduction paragraph -->
+            <p id="para">In this tough times of an pandemic it is difficult to find a house .Rent a beautiful house 
+                for your family , friends or yourself. Chosen from flats in socities ,
+                 individual apartments , bungalows and villas. 
+             </p>
+
+            <!-- button -->
+            <div id="btn">
+            <button id="btnclick" value="Redirect"><a href="rent.html" style="color: white;">Explore</a></button>
+            </div>
+        </div>
+    </section>
+    <!--Home section ends-->
+
+    <!--Footer section starts-->
+    <div class="footer">
+
+        <div class="box-container">
+
+        <!--why choose us section-->
+            <div class="box">
+                <h3>WHY CHOOSE US?</h3>
+                <p>In this challenging and tough times of an ongoing pandemic 
+                    , people are facing problems finding homes to rent , as it could be difficult
+                    to go house to house and find a perfect place to live .We help you find the perfect 
+                    place sitting in your house just by clicking some buttons.
+                </p>
+            </div>
+            <!--quick links section-->
+            <div class="box">
+                <h3>QUICK LINKS</h3>
+                <a href="#">Home</a>
+                <a href="#">Rent</a>
+                <a href="#">Facilities</a>
+                <a href="#">About Us</a>
+            </div>
+            
+            <!--contact section-->
+            <div class="box">
+                <h3>CONTACT US</h3>
+                <p>For any queries contact us</p>
+                <div class="mail-btn">
+                 <a href="mailto:add@companyemail.com?subject=My query" id="mail">Send Email</a>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer section ends-->
+    <script src="rentals.js"></script>
+</body>
+</html>
